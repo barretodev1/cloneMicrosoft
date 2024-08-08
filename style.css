@@ -26,7 +26,10 @@ header {
 
     li {
         cursor: pointer;
-        color: #262626;
+    }
+
+    .list-microsoft-resp {
+        display: none;
     }
 
 } 
@@ -65,6 +68,10 @@ header {
 .slide {
     .carousel-control-prev, .carousel-control-next {
         top: 300px;
+    }
+
+    .img-carousel-resp {
+        display: none;
     }
 }
 
@@ -154,6 +161,7 @@ header {
         border-radius: 0;
         border: none;
         padding: 30px;
+        width: 20rem;
     }
 
     h5 {
